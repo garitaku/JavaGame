@@ -11,7 +11,7 @@ public class CatPot extends JLabel {
 	// コンストラクタ
 	public CatPot() {
 		image = new ImageIcon(getClass().getClassLoader().getResource("./images/shopping_reji_kago_red1.png"));
-		this.setSize(150, 150);
+		this.setBounds(325, 375, 150, 150);
 		this.setIcon(image);
 		this.setText("DROP HERE↓");
 		this.setHorizontalTextPosition(CENTER);
